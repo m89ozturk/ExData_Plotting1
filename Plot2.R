@@ -10,7 +10,7 @@ dt<-strptime(x, format="%Y-%m-%d %H:%M:%S")
 
 # sorry for the German days! "Do" corresponds to Thursday, "Fr" to Friday and "Sa" to Saturday!
 
-png(filename = "plot2.png", width = 480, height = 480)
+png(filename = "Plot2.png", width = 480, height = 480)
 plot(x=dt, y=myData$Global_active_power, ylab="Global Active Power (kilowatts)", type="l", xlab=NA)
 dev.off()
 
