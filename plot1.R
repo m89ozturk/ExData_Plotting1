@@ -1,5 +1,5 @@
 #### Merve Öztürk plot1.R
-# file containing only the specified dates are used as an input.
+# file containing only the specified dates is used as an input.
 
 myData <-read.table("household_power_consumption.txt", sep=";", header=TRUE)
 
